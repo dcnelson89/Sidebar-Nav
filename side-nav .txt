@@ -1,0 +1,30 @@
+Side Navigation (Editable in Mono) Version 1.1
+
+################################################
+##    Step 1. Global Styling > Custom CSS     ##
+################################################
+
+@media only screen and (min-width: 767px){
+.menu-Parent {
+width:300px;
+height:100%;;
+position: fixed;
+float: left;
+left: 0;
+z-index: 99999;
+overflow:auto;
+top:0;
+}
+body {padding-left:300px;}
+nav ul li {display:block;}
+}
+
+################################################################
+##    Step 2. Settings > Global HTML Tag > Global BODY Tag    ##
+################################################################
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+<script>
+  $('#m5000').parent('.col').addClass('menu-Parent');
+</script>
+
