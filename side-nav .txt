@@ -18,6 +18,17 @@ top:0;
 body {padding-left:300px;}
 nav ul li {display:block;}
 }
+@media only screen and (min-width: 1200px){
+.container-fixed:not(footer) {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 1199px){
+  footer .col {
+  width:100%
+  }
+  footer {text-align:center;}
+}
 
 ################################################################
 ##    Step 2. Settings > Global HTML Tag > Global BODY Tag    ##
