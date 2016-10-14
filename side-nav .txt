@@ -1,5 +1,7 @@
 Side Navigation (Editable in Mono) Version 1.1
 
+!!  Make sure your Nav Module is in a Row of its own, at the top of the page. !!
+
 ################################################
 ##    Step 1. Global Styling > Custom CSS     ##
 ################################################
