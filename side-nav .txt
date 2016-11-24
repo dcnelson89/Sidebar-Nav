@@ -1,6 +1,10 @@
 Side Navigation (Editable in Mono) Version 1.1
 
-EXAMPLE LINK: http://www.lifespalondon.com/
+EXAMPLE LINKS: 
+
+http://www.lifespalondon.com/
+
+http://www.midastouchweddings.co.uk
 
 
 !!  Make sure your Nav Module is in a Row of its own, at the top of the page. !!
