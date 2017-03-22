@@ -46,6 +46,6 @@ nav ul li {display:block;}
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
 <script>
-  $('#m5000').parent('.col').addClass('menu-Parent');
+  $('nav').parent('.col').addClass('menu-Parent');
 </script>
 
